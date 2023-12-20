@@ -5,7 +5,7 @@ export const homeRoute: string = '';
 
 export const routes: Routes = [
     { 
-        title: 'Acceuil',
+        title: 'Accueil',
         path: homeRoute,
         component: HomePageComponent 
     },
