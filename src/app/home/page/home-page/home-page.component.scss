@@ -1,6 +1,12 @@
 .title {
     text-align: center;
 }
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
 *.content {
     display: flex;
     flex-direction: row;

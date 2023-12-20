@@ -1,3 +1,13 @@
 .brand {
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
 }
