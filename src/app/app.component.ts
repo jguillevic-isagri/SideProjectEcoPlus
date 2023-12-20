@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { TopBarComponent } from "./layout/components/top-bar/top-bar.component";
+import { TopBarComponent } from './layout/components/top-bar/top-bar.component';
 
 @Component({
     selector: 'app-root',
@@ -11,5 +11,5 @@ import { TopBarComponent } from "./layout/components/top-bar/top-bar.component";
     imports: [CommonModule, RouterOutlet, TopBarComponent]
 })
 export class AppComponent {
-  title = 'SideProjectEcoPlus';
+    title = 'SideProjectEcoPlus';
 }
