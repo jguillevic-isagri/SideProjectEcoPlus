@@ -1,6 +1,11 @@
-<mat-toolbar color="primary">
-    <span class="brand" (click)="goToHome()">
-        <img class="logo" src="assets/images/logo-eco-plus.png" alt="logo" />
+<mat-toolbar class="container" color="primary">
+    <div class="brand" (click)="goToHome()">
+        <img class="logo" src="assets/images/logo-eco-plus.png"/>
         Side project Eco+
-    </span>
+    </div>
+    <div class="actions">
+        <button  mat-icon-button (click)="goToLogin()">
+            <mat-icon>login</mat-icon>
+        </button>
+    </div>
 </mat-toolbar>
