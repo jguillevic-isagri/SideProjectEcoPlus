@@ -8,7 +8,11 @@ import { TopBarComponent } from './layout/components/top-bar/top-bar.component';
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [CommonModule, RouterOutlet, TopBarComponent]
+    imports: [
+        CommonModule,
+        RouterOutlet,
+        TopBarComponent
+    ]
 })
 export class AppComponent {
     title = 'SideProjectEcoPlus';
