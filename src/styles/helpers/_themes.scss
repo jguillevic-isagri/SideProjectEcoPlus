@@ -28,9 +28,7 @@ $dark-theme: mat.define-dark-theme((
     density: 0,
 ));
 
-@media (prefers-color-scheme: light) {
-    @include mat.all-component-themes($light-theme);
-}
+@include mat.all-component-themes($light-theme);
 
 @media (prefers-color-scheme: dark) {
     @include mat.all-component-themes($dark-theme);
