@@ -7,7 +7,7 @@ export class HomeRoutes {
             path: HomeRoutes.displayHomeRoute,
             pathMatch: 'full',
             title: 'Accueil',
-            loadComponent: () => import('../page/home-page/home-page.component').then(module => module.HomePageComponent)
+            loadComponent: () => import('../ui/page/home-page/home-page.component').then(module => module.HomePageComponent)
         }
     ];
 }

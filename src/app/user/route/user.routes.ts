@@ -6,7 +6,7 @@ export class UserRoutes {
         {
             path: UserRoutes.displayLoginRoute,
             title: 'Se connecter',
-            loadComponent: () => import('../page/login-page/login-page.component').then(module => module.LoginPageComponent)
+            loadComponent: () => import('../ui/page/login-page/login-page.component').then(module => module.LoginPageComponent)
         }
     ];
 }

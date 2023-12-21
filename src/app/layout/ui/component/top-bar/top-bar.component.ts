@@ -4,8 +4,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 import { Observable, from } from 'rxjs';
-import { HomeRoutes } from '../../../home/route/home.routes';
-import { UserRoutes } from '../../../user/route/user.routes';
+import { HomeRoutes } from '../../../../home/route/home.routes';
+import { UserRoutes } from '../../../../user/route/user.routes';
 
 @Component({
     selector: 'app-top-bar',
