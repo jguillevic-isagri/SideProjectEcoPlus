@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 import { TopBarComponent } from './layout/ui/component/top-bar/top-bar.component';
+import { MainComponent } from './layout/ui/component/main/main.component';
 
 @Component({
     selector: 'app-root',
@@ -10,8 +10,8 @@ import { TopBarComponent } from './layout/ui/component/top-bar/top-bar.component
     styleUrl: './app.component.scss',
     imports: [
         CommonModule,
-        RouterOutlet,
-        TopBarComponent
+        TopBarComponent,
+        MainComponent
     ]
 })
 export class AppComponent {

@@ -1,0 +1,31 @@
+@keyframes enter-translate {
+    0% {
+      opacity: 0;
+      //transform: translateX(-100%);
+    }
+  
+    100% {
+      opacity: 1;
+      //transform: translateX(0%);
+    }
+}
+  
+@keyframes exit-translate {
+    0% {
+        opacity: 1;
+        //transform: translateX(0%);
+    }
+
+    100% {
+        opacity: 0;
+        //transform: translateX(100%);
+    }
+}
+
+::view-transition-new(main) {
+    animation: enter-translate 0.5s ease 0s 1 normal forwards;
+}
+
+::view-transition-old(main) {
+    animation: exit-translate 0.5s ease 0s 1 normal forwards;
+}

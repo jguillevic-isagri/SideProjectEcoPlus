@@ -1,14 +1,19 @@
-.title {
-    text-align: center;
-}
+@import '../../../../../styles/components/mat-card';
 
-.logo {
-    width: 200px;
-    height: 200px;
-}
-
-.content {
+.title-with-logo {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+
+    & img {
+        width: 75px;
+        height: 75px;
+        margin-right: 15px;
+    }
+
+    & h1 {
+        margin: 0;
+    }
 }
