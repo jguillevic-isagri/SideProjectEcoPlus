@@ -1,0 +1,14 @@
+<p>Affichage des maintenances par développeur</p>
+
+<select name="select_developperId">
+    @for (item of developpers | async; track item){
+        <option >{{ item.firstName }} {{ item.name }} </option>{{item.name}}
+    }
+</select>
+
+<br><br>
+
+
+@for (item of weeks | async; track item){
+    du {{ item.mondayDate | date: "dd/MM/yyyy" }} au {{ item.sundayDate | date: "dd/MM/yyyy" }} : {{ item.developperFirstName }} {{ item.developperName }} <br>
+}
